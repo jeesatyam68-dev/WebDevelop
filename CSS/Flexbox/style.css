@@ -1,0 +1,40 @@
+h1 {
+    border: 3px solid black;
+    text-align: center;
+}
+
+.coantainer {
+    height: 80vh;
+    width: 200vh;
+    border: 3px solid red;
+    overflow: hidden;
+    /*actually woh box 4 ka thora part dikkh raah tha neeche issliye kaat diya */
+    display: flex;
+    /* it is used to make things horizontal by default*/
+    flex-direction: column;
+    /*basically coloumn reverse me yeh neeche se start hoga
+     and agar tum karoge row reverse toh yeh right se start hoga kyunki 
+      isme follow hota hai main axis rule  iske baarein me aage baat karenge*/
+    flex-direction: row;
+    /* jaise ham log div ko inline and span ko block yah kisi block element ko span and viceversa
+    show  karte hai wais ehi flex ki  direction bhi we can change */
+    justify-content: space-between;
+    /* space around= harr box ke around  space hoga
+       space evenly= evenly spaced hoga each and every box
+       space between= sirf boxes ke beech me space hoga margins nahi hongi..*/
+    align-items:flex-end;
+
+    }
+
+
+.box {
+    border: 2px solid greenyellow;
+    height: 20vh;
+    width: 20vh;
+
+
+}
+
+#box1{
+    align-self:flex-start;
+}

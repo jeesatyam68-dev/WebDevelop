@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QUESTION PRACTISE</h1>
+ <pre>
+ Question 1.)   name naam ka variable banao aur apna naam print karo.
+    
+
+Answer.1)       let name= "satyam"
+                console.log(name)
+
+
+
+
+
+Question 2.)  age me 18 store karo aur print karo: I am 18 years old.
+
+Answer 2.)    let age= 18;
+
+console.log(`Iam ${age} year old`)
+
+
+
+Question 3.)   city aur state variables banao. Ek line me print karo: Lucknow, Uttar Pradesh.
+
+Answer.)      let city= "lucknow";
+              let state= "Uttar Pradesh"
+              console.log(`${city}, ${state}`)
+
+
+
+
+
+Question 4.) let score = 10. Usme 5 add karo, phir 2 se multiply karo. Final score print karo.
+
+
+
+Answer.)  let score= 10;
+          let intermediate = score +5;
+          let final_score= intermediate *2
+          console.log(final_score);
+
+
+
+  
+
+
+
+
+
+Question 5.)  const PI = 3.14159 banao. Radius = 5 ke circle ka area calculate karo.
+
+
+Answer:-    const PI= 3.14159;
+let radius= 5
+
+area= PI*radius**2
+
+console.log(`${area}`)
+
+
+
+
+
+QUESTION 6.)12 + 8 ka result variable me store karke print karo.
+Answer.)   let num1= 12;
+           let num2= 8;
+           let sum= num1+num2;
+           console.log(sum)
+
+
+
+
+
+
+
+Question 7.)  45 - 17 ka result print karo.
+answer.)     let num3= 45
+             let num4=17
+             let difference=  num3-num4 
+             console.log(difference)
+
+
+
+
+
+
+Question 8.) 9 * 7 ka result print karo.
+
+answer.)   let x=9
+let y=7
+
+let product = x*y
+
+console.log(product)
+
+question 9.) 100 / 4 ka result print karo.
+
+
+answer.)   let a= 100
+           let b= 4
+           let division = a/b
+           console.log(division)
+
+
+
+
+Question 10.)  17 % 5 ka output kya hoga? Pehle guess karo, phir code chalao.
+
+Answer.)  let pi= 17
+          let chi=5;
+          let remainder= pi%chi 
+          console.log(remainder)
+
+
+Question 11.)  2 ** 5 ka result print karo (power operator).
+
+
+Answer.)   let power= 2
+           let operator= 2**5
+           console.log(operator)
+
+
+
+
+
+
+Question 12.) User se naam lo aur print karo: Hello, <name>!.
+
+
+Answer.)   let naam=window.prompt("what is your name?")
+           console.log(naam)
+
+
+Question 13.)  User se age lo aur print karo: Next year you will be X+1.
+
+
+Answer.)    let z= window.prompt("what is your age?")
+            console.log(z)
+
+
+
+Question 14.)
+<div>
+<label for="num1">enter number1:</label>
+<input type="text" id="num1">
+<label for="num2">enter number2: </label>
+<input type="text" id="num2">
+<button id="btn">submit</button>
+<h2 id="result"></h2>
+</div>
+
+answer:-  
+          document.getElementById("btn").onclick=function(){
+    let number1= document.getElementById("num1").value
+    let number2= document.getElementById("num2").value
+    number1=Number(number1)
+    number2=Number(number2)
+    sum= number1+number2
+    document.getElementById("result").textContent=sum;
+}
+ 
+
+
+Question 15.) 
+User se radius lo aur circle ka area print karo.
+<div>
+<label for="radius">enter the radius:- </label>
+<input type="text" id="radius">
+<button id="output">SUBMIT</button>
+<h2 id="parimar"></h2>
+</div>
+
+
+
+Answer:-   document.getElementById("output").onclick=function(){
+           const PI= 3.14159265359;
+           let radius= document.getElementById("radius").value
+           radius=Number(radius);
+           area=  PI * radius*radius 
+           document.getElementById("parimar").textContent=area;
+        }
+
+
+
+
+        Question 16.)   User se Celsius input lo aur Fahrenheit me convert karo.
+                        Formula: F = (C × 9/5) + 32
+
+
+
+       Answer.)   <div>
+                  <label for="conversion">enter the celcius: </label>
+                  <input type="text" id="conversion">
+                  <button id="outcontent">SUBMIT</button>
+                  <h2 id="AKGEC"></h2>
+                  </div>
+
+
+
+
+                  document.getElementById("outcontent").onclick=function(){
+                      let celcius= document.getElementById("conversion").value;
+                      celcius=Number(celcius);
+                      farenheight= (celcius*1.8)+32
+                      document.getElementById("AKGEC").textContent=farenheight+ `F`;
+                    }
+
+
+
+   Question 17.) "25" ko number me convert karke 5 add karo. Output 30 aana chahiye.
+
+  Answer.)      let numera ="25"
+                numera=Number(numera)
+                outnumera=numera + 5
+                console.log(outnumera)
+
+    Question 18.)100 ko string me convert karke uska typeof print karo.
+
+    Answer.)   let number3= 100;
+               number3= String(number3)
+               console.log(typeof number3)
+
+
+
+
+    Question 20.) User se number lo. Agar input string hai toh number me convert karke uska square print karo.
+
+    Answer.)    let number4= window.prompt("enter a number:");
+                number4=Number(number4)
+                square1= number4**2
+                console.log(square1);
+
+
+
+
+  Question 21.)  Ek function banao toNumber(value) jo string input ko number me convert kare aur invalid input par NaN return kare.
+
+ANSWER:-     function converter(k="a"){
+             if(k="a"){
+                 k=Number(k="");
+                 return k
+                }
+                else{
+                    return "Invalid Input"
+                }
+            }
+            console.log(converter(k="4567"))
+
+
+
+
+
+question 23.) const COUNTRY = "India" banao aur print karo.
+
+answer:-   const country= "India";
+console.log(country)
+
+
+question 24.)const DAYS_IN_WEEK = 7 banao aur print karo.
+
+answer.)    const DAYS_IN_WEEK= 7;
+console.log(DAYS_IN_WEEK)
+
+
+question 25.)  Try karo: PI = 10. Kya error aata hai? Kyun?
+
+
+ANSWER.)   const PI= 3.145973
+           PI= 10;
+           console.log(PI);
+
+ERROR ISSLIYE AATA HAI KYUNKI  HUM LOGON NE CONST ME PI KI VALUE BAITHA DI AHI EK BAAR CONTS ME VALUE DENE KE BAAD USKO KABBHI CHANGE NHAI KAR SAKTE 
+
+
+
+
+
+
+
+
+QUESTION 26.)   COUNTER PROJECT 
+
+
+        <label for="display" id="display">0</label>
+      <div id="buttons">  
+        <button id="decrease" class="change">DECREASE</button>
+        <button id="reset" class="change">RESET</button>
+        <button id="increase" class="change">INCREASE</button>
+        </div>
+
+
+        <!-- THE CSS PART OF QUESTION 26  -->
+     <h1>CSS PART OF QUESTION 26 </h1>
+        #display{
+    text-align:center;
+    display:block;
+    padding:5em;
+    font-size: 2em
+}
+
+#buttons{
+    text-align:center;
+    padding:1em;
+    }
+
+.change{
+    font-size:1em;
+    background-color:rgb(7, 88, 181);
+    transition:background-color 2s ease;
+    transition:font-size 2s ease;
+    color:white;
+    border-radius:1em
+}
+
+.change:hover{
+    background-image:linear-gradient(to left, rgb(8, 26, 64), rgb(61, 5, 61));
+    font-size:1.5em
+}
+
+<!-- CODING OF JS  -->
+ <h1>JAVASCRIPT PART OF QUESTION 26</h1>
+
+let count=0
+
+document.getElementById("decrease").onclick=function(){
+    // let count=0;
+    count--;
+     document.getElementById("display").textContent=count;
+}
+
+
+
+document.getElementById("increase").onclick=function(){
+    // let count=0;
+    count++;
+     document.getElementById("display").textContent=count;
+}
+
+document.getElementById("reset").onclick=function(){
+    count=0;
+    document.getElementById("display").textContent=count;
+}
+
+            
+
+<script src="java.js"></script>
+<script src="counter_java.js"></script>
+</pre>
+</body>
+</html>

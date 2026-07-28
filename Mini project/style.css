@@ -1,0 +1,12 @@
+h1{
+    text-align:center;
+    border:solid rgb(103, 103, 103);
+    background-color:grey;
+}
+.music{
+    float:right;
+    margin-right:500px;
+}
+body{
+    background-color:black;
+}

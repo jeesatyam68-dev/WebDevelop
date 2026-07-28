@@ -1,0 +1,21 @@
+.box{ 
+
+
+   
+    margin:10px ; 
+    border:10px solid;
+    height: 300px;
+    width:300px;
+    
+       
+}
+#box1{
+    background-color:red;
+    margin-left:auto;
+}
+
+#box2{
+    background-color:blue;
+    margin-right:auto;
+    
+}

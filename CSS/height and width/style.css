@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.coantainer{
+    background-color:hsl(0, 0%, 50%);
+    height:100vh;
+    
+}
+
+
+
+
+.box{
+    background-color:hsl(0, 0%, 96%);
+    border:2px solid;
+    padding:25px;
+    height:auto;
+    width:50%;
+    float:left;
+    overflow:none;
+    text-align:center;
+    min-width:50%;
+    min-height:60%;
+
+}

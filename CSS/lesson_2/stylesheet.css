@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(18, 8, 23)
+
+}
+
+h1{
+
+    color:aqua;
+}
+#p1{
+
+    color:hsl(180, 52%, 29%);
+}
+
+#p2{
+
+    color:#646061;
+}
+
+.even{
+
+    color:rgb(57, 67, 78)
+}

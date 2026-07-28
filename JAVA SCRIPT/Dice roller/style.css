@@ -1,0 +1,29 @@
+#num{
+    font-size:2em;
+    font-weight:bold;
+    
+}
+#numbers{
+    font-size:2em;
+    position:relative;
+}
+#btn{
+    font-size:2em;
+    border-radius: 1em;
+    background-color:blue;
+    color:white;
+    
+}
+#class{
+    display:inline-block;
+    /* padding:25em; */
+    
+}
+#dic{
+    text-align:center;
+    display:block;
+    /* text-align:center; */
+    height:20em;
+    width:20em;
+    padding:50em;
+}

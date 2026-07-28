@@ -1,0 +1,31 @@
+/* .container{ */
+    /* font-weight:bold;
+    border-radius:2em;
+    border:2px solid black
+} */
+
+
+
+
+#output{ 
+
+    display:block; 
+    justify-content:center;
+    text-align:center;
+    text-align:center;
+     padding:1em;
+
+}
+
+#div{
+    display:block;
+    justify-content: center;
+    text-align:center;
+    padding:1em;
+}
+#div2{
+    display:block;
+    justify-content: center;
+    text-align:center;
+    padding:1em;
+}

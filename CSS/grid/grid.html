@@ -1,0 +1,56 @@
+<!-- we will study about grid here CSS Grid Layout is a two-dimensional layout system that allows you to design web pages in rows and columns. It gives you complete control over both axes, unlike Flexbox which is mostly one-dimensional. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=\, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <h1>HERE WE WILL CREATE A GRID</h1>
+   <div class="container">
+      <div class="box">box1</div>
+      <div class="box">box2</div>
+      <div class="box">box3</div>
+      <div class="box">box4</div>
+      <div clas="box"  id="boxe1">box5</div>
+      <div clas="box" id="boxes">box6</div>
+      <div clas="box" id="boxes">box7</div>
+      <div clas="box" id="boxes">box8</div>
+      <div class="box" id="boxes">box9</div>
+      <div class="box" id="boxes">box10</div>
+      <div class="box" id="boxes">box11</div>
+      <div class="box" id="boxes">box12</div>
+      <div class="box" id="boxes">box13</div>
+      <div class="box" id="boxes">box14</div>
+      <div class="box" id="boxes">box15</div>
+      <div class="box" id="boxes">box16</div>
+      <div class="box" id="boxes">box17</div>
+      <div class="box" id="boxes">box18</div>
+      <div class="box" id="boxes">box19</div>
+      <div class="box" id="boxes">box20</div>
+   </div>
+
+</body>
+
+</html>
+
+<!-- grid-template-row= it's for setting up rows in a table(in container)
+     grid-template-coloumn= it's for setting up coloumn in table(in container) 
+     hann like maan lo we have more than 10 coloum or smh
+     we can you 
+     
+     grid-template-column:repeat(10, 2fr)(here 10 stands for repeated number of rows/coloumn)-->
+
+     <!-- now maan lo you want to give gap between  rows and coloumn avoid using margin,padding
+     use: gap:20px(or wtv unit you want)
+   you can use this too :- gap-row:20px -->
+
+   <!-- now if you want ki tumhara row and column jo hai woh 
+    maan lo 1 row 2 rows ki space khaa jaaye yah 
+    1 column 2 column ki space khaa le tab kya karoge??
+    tab we use span jaise
+    grid-column: span 2(ab 2 column ki jagah khaayega) {accha yeh sirf boxes par apply hoga coz logically wahi toh space lenge na }  -->

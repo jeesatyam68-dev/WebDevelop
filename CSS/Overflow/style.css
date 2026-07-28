@@ -1,0 +1,9 @@
+div{
+    border:solid 2px red;
+    height:75px;
+    overflow:hidden;
+    overflow:clip;
+    overflow-clip-margin:13px;
+    overflow:scroll;
+    overflow:auto;
+}

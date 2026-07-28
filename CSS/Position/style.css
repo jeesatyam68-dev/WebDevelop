@@ -1,0 +1,18 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color:hsl(240, 100%, 50%);
+    position:relative;
+    top:250px;
+    left:620px;
+
+}
+
+#box2{
+    height:100px;
+    width:100px;
+    background-color:hsl(0, 97%, 61%);
+    position:fixed;
+}
+
+

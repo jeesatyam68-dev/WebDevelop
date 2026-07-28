@@ -1,0 +1,31 @@
+#pagination{
+    text-align:center;
+}
+
+#pagination a{
+    padding:25px;
+    text-decoration:none;
+    border: solid .5px;
+    border-radius:10px;
+    margin-top:80px;
+}
+
+#pagination a:hover{
+    background-color:aqua;
+}
+
+#pagination .a:active{
+    background-color:hsl(0, 0%, 16%);
+}
+
+#pagination a:not(:hover){
+    background-color:hsl(0, 0%, 100%);
+}
+
+#pagination a.page:active{
+    background-color:rgba(0, 0, 255, 0.341);
+}
+
+#pagination a.active{
+    background-color:greenyellow;
+}

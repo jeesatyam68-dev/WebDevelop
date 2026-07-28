@@ -1,0 +1,32 @@
+#label{
+    text-align:center;
+    display:block;
+    font-size:5em;
+}
+
+#buttons{
+    
+    text-align:center;
+    /* padding: 20px 20px; */
+    font-size: 3.5em;
+    
+}
+
+.buto{
+    color:white;
+    background-color:rgb(179, 52, 179);
+    font-size:.5em;
+    box-shadow: 3px 3px 5px black;
+    transition: background-color 2s ease ;
+    transition: font-size 2s ease;
+    border:none;
+    border-radius: 0.35em;
+}
+
+.buto:hover{
+    background-image:linear-gradient(to left, rgb(21, 21, 118), rgb(84, 10, 84));
+    }
+
+    .buto:hover{
+        font-size: 0.6em;
+    }

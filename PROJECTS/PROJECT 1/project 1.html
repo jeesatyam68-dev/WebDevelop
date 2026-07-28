@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        </div>
+        <button id="button"     class="btn" >DO THE MAGIC</button>
+    <script src="java.js">
+    
+    </script>
+    
+</body>
+</html>
+
+
+<pre>
+    get element by ID we know that :- 
+
+    getElementsByClassName("box");
+    here we have to apply for  array type indexing and  do the text content or style change 
+
+    example 
+
+    document.GetElementByClassName("box");
+
+    box[0].textContent="MAGIC HAPPENED" aisa sa 
+
+</pre>
+<pre>
+    <h1>QUERRY SELECTOR </h1>
+ document.queryselector("#box1").textContent="MAGIC HAPPENED!";
+ ISME BHALLE HI KITNE BHI CLASS SAME YEH SIRF FIRST WALA HI LEGA.. IS LIYE WE USE querryselectorall
+
+ let item=document.querySelectorAll(".box");
+
+ item.textContent="HELLO THERE!"
+ item.style.color="red";
+ item.style.backgroundcolor="yellow";
+ 
+</pre>

@@ -1,0 +1,31 @@
+.container{
+    background-color:grey;
+    height:100%;
+    width:100%;
+    
+}
+.box{
+background-color:aqua;
+height:60px;
+width:60px;
+margin:4px;
+transition: width 2s ease ; 
+animation: sattu 2s ease infinite ;
+font-size: 15px;
+box-shadow:3px 3px 7px black;
+}
+
+.box:hover{
+    width: 500px;
+    background-color:rgb(56, 45, 45);
+}
+
+@keyframes sattu{
+    from{
+        font-size:15px;
+    }
+    to{
+        font-size:22px;
+    }
+
+}
