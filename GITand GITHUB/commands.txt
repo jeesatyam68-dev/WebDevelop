@@ -10,7 +10,7 @@ git>> it's a version control bhai
    >>Basic git commands now 
 
    >> git status(this checks ki konsi konsi files nahi hai added);
-   >> git .(agar saari  files ek satah daalni hai );
+   >> git add .(agar saari  files ek satah daalni hai );
    >>git commit -m "yaha kucch bhi msg type kar lo "(yeh mainly git commit ke liye hota hai );
    >>git push(yeh push kar deta hai uske baad ek part milta hai terminal me ussko copy karke run kardo fir poora push ho jaayega);
    
