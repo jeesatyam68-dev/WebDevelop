@@ -1,0 +1,43 @@
+body label{
+    display:block;
+    text-align:center;
+    padding:4em;
+    border:1em solid purple;
+    font-size:1.4em;
+    background-image: linear-gradient(to right, #515661, #2e9f82, #68c170, #d6ec8c)
+}
+
+
+body div{
+    display:block;
+    display:flex;
+    justify-content: center;
+    padding-top: 6em;
+}
+    
+#btn{
+    padding: 1em;
+    background-color:black;
+    color:white;
+    border:none;
+    box-shadow:0px 0px 2em  purple;
+    transition: background-color 1s ease, scale 2s ease, transform 1.3s ease, background-image 1.5s ease  ;
+    
+    }
+
+#btn:hover{
+    background-color:rgb(127, 175, 185);
+    scale:1.5;
+    transform: rotate(360deg);
+    background-image:linear-gradient(to left, #ececec, #9fd3c7, #385170, #142d4c )
+}
+
+
+
+
+
+
+    
+
+
+    

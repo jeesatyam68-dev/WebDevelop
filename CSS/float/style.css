@@ -1,0 +1,18 @@
+#img1{
+    float:left;
+    margin:auto;
+}
+
+#img2{
+    float:right;
+    margin-right:auto;
+    border-right:groove  black ;
+    border-width:30px;
+    border-left:solid red;
+}
+
+body{
+    border:solid red;
+    border-width:4px;
+    display:flow-root;
+}

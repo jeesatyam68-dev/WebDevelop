@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Challenge </title>
+    <script src="java.js"></script>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MEDIUM QUESTIONS</h1>
+    <h1>MEGA QUESTIONS!!</h1>
+    <pre>
+
+
+
+     Quest 1.) Function banao jo check kare:
+               checkNumber(0)
+               output :- positive, negative, zero 
+
+
+
+
+    Answer:- function checkNumber(a){
+              if(a>0){
+              console.log("Positive");
+            }
+            else if(a==0){
+                console.log("Zero");
+            }
+            else{
+                console.log("Negative");
+            }
+            return checkNumber
+        }
+        checkNumber(0)
+
+
+
+
+
+
+    Question 2.)   Function banao:
+
+                   isVoteEligible(age)
+                   output:- 
+                   Eligible To Vote
+                   Not Eligible To Vote
+
+
+
+
+    Answer:-     function isVoteEligible(b){
+                if(b>=18){
+                          return "Eligible To Vote "
+                         }
+                         else{
+                             return "Not Elibile To Vote"
+                            }
+                        }
+                        console.log(isVoteEligible(19));
+       
+
+        
+    
+
+
+
+
+        
+    Question 3.)      Function banao jo 2 numbers compare kare.
+                      compare(10,20)
+                      output: 20 is greater 
+
+
+
+
+
+    Answer:-        function compare(c, d){
+                    if(c>d){
+                        return (c)
+                    }
+                    else{
+                        return (d)
+                    }
+                }
+                console.log(compare(10, 20),"is greater");
+
+
+
+
+
+
+
+
+
+    Question 4.)  Function banao jo 3 numbers me smallest number bataye.
+                  smallest(10,5,8)
+                  output:- 5
+
+
+
+
+
+
+    Answer:-   
+    
+                function smallest(e,f,g){
+                if(e<f && e<g){
+                    return e;
+                }
+                else if(f<e && f<g){
+                    return f;
+                }
+                else{
+                    return g;
+                }
+            }
+            console.log(smallest(10,5,8))
+
+
+
+
+
+
+    Question 5.)   Function banao jo leap year check kare.
+                   checkLeapYear(2024);
+                   output: leap year 
+
+
+
+
+
+
+
+    Answer:-   function cheakLeapYear(i){
+               if(i%4===0){
+                return "Leap Year"
+            }
+            else if(i%100 && i%400===0){
+                return "Leap Year"
+            }
+            else if(i%4===0 && i%100===!0){
+                return "Leap Year"
+            }
+            else{
+                return "Not Leap Year"
+            }
+        }
+            console.log(cheakLeapYear(2024))
+
+
+
+
+
+
+
+
+    Question 6.)   Function banao jo month number lekar month name print kare.
+                   monthName(3) output:- march 
+
+
+
+
+
+
+
+
+
+    Answer:-      
+
+               function monthName(h){
+                   if(h===1){
+                    console.log("January")
+                }
+                else if(h===2){
+                    console.log("February")
+                }
+                else if(h===3){
+                    console.log("March")}
+                    else if(h===4){
+                        console.log("april")
+                    }
+                    else if(h===5){
+                        console.log("may")
+                    }
+                    else if( h===6){
+                        console.log("june")
+                    }
+                    else if(h===7){
+                        console.log("july")
+                    }
+                    else if(h===8){
+                        console.log("august")
+                    }
+                    else if(h===9){
+                        console.log("september")
+                    }
+                    else if(h===10){
+                        console.log("october")
+                    }
+                    else if(h===11){
+                        console.log("november")
+                    }
+                    else if(h===12){
+                        console.log("december")
+                    }
+                    else{
+                        console.log("please enter numbers between 1--12")
+                    }
+                }
+                monthName(3)
+
+
+
+
+
+
+
+    Quest 7.)    Function banao jo salary lekar tax category bataye.
+
+                 rules:-   <300000       No Tax
+                            300000-700000 Medium Tax
+                            700000+       High Tax
+                    
+
+
+
+
+
+
+    Answer:-        function tax(i1){
+                    if(i1<=300000){
+                        return "No Tax"
+                    }
+                    else if(i1>300000 && i1<=700000){
+                        return "Medium Tax"
+                    }
+                    else{
+                        return "High Tax"
+                    }
+                }
+                console.log(tax(30000))
+
+
+
+
+
+
+    Question 8.)    Function banao jo triangle valid hai ya nahi bataye.
+                        triangle(60,60,60)
+                        output:- Valid Triangle 
+
+
+
+
+
+
+    Answer:-       function triangle(x,y,z){
+                   let sum = x+y+z;
+                   if(sum===180){
+                       return "valid triangle"
+                    }
+                    else{
+                        return "Not Valid"
+                    }
+                }
+                console.log(triangle(60,60,60))
+
+
+
+
+
+    Question 9.)   Function banao jo character vowel hai ya consonant.
+                   checkVowel("a")
+                   output:- Vowel;
+
+
+
+
+
+
+
+    Answer:-     function checkVowel(x2,x3,x4,x5,x6){
+                 if(x2==="a"||x3==="e"||x4==="i"||x5==="o"||x6==="u"){
+                     return "vowel"
+                    }
+                    else{
+                        return "consonant"
+                    }
+                }
+                console.log(checkVowel("a"))
+
+
+
+
+
+    Question 10:- Function banao jo temperature check kare.
+
+
+    rules:- Below 10     Cold
+    10-25        Normal
+    Above 25     Hot
+    </pre>
+
+    <h1>HARD QUESTIONS</h1>
+
+
+
+
+
+<pre>
+
+Question 11.)    function to add sum of odd number  10 tak 
+
+
+
+
+Answer:-   
+            function sumOdd(y2){
+            let sum= 0;
+            for(y2=1;y2<10;y2=y2+2){
+                sum=sum+y2
+            }
+            return sum; 
+        }
+        console.log(sumOdd(10))
+        
+
+
+
+
+
+Question 12.)   Function  banao.)
+                sumEven(10)..
+
+
+
+Answer:-    
+
+            function sumEven(y3){
+            let sum1=0;
+            for(y3=2;y3<11;y3=y3+2){
+                sum1=sum1+y3 ;
+            }
+            return sum1
+        }
+        console.log(sumEven(10));
+
+
+
+Question 13.) Function banao jo count kare:countOdd(20)
+
+
+
+
+Answer:-    
+             function sumOdd(y4){
+                 let count=0;
+                 for(y4=1;y4<21;y4=y4+2){
+                     count++
+                    }
+                    return count
+                }
+
+        
+
+
+
+
+Question 14.)  Function banao jo 1 se N tak sirf multiples of 5 print kare.
+                 multiplesOfFive(30)
+                  outpute:-
+                  5
+                  10
+                  15
+                  20
+                  25
+                  30
+
+
+
+
+Answer:-         
+
+              function multipleOfFive(x1){
+              for(iy=1;iy<11;iy++){
+                  if(x1*iy===35){
+                    break;
+                }        
+                console.log(x1 + "X" + iy + "=" + x1*iy 
+                )
+            }
+        }
+                
+        
+    
+    
+
+
+
+
+
+
+Question 15.)     Function banao jo table print kare from 1 to 10.
+                   allTables(3)
+                   output:-
+                   3 x 1 = 3
+                   3 x 2 = 6
+                   ...
+                   3 x 10 = 30
+
+
+
+
+Answer:-        
+                 function allTables(x2){
+                     for(iz=1;iz<11;iz++){
+                         console.log(x2,"X",iz,"=", x2*iz)
+                        }
+                    }
+                    allTables(3);
+
+
+
+
+Question 16.) Function banao jo reverse counting kare.
+              reverseCount(10)
+              10
+              9
+              8
+              7
+              ...
+              1
+
+
+
+
+Answer:-    
+
+             function reverseCount(numz){
+                 for(let i=numz; i>0;i--){
+                     console.log(i)
+                    }
+                }
+                reverseCount(10)
+
+
+
+
+
+Question 17.)   Number palindrome hai ya nahi.
+
+                palindrome(121)
+
+
+
+
+
+
+
+Question 20.)  Function banao jo count kare:
+                 countDivisibleBy3(30)
+                 output:- 10
+
+
+
+
+
+
+Answer:- let count=0;
+function countDivisibleBy3(k){
+    for(alpha=1;alpha<=k;alpha++){
+        if(alpha%3===0){
+             count++
+            
+        }
+    }
+  return count
+}
+console.log(countDivisibleBy3(30))
+
+</pre>
+
+
+
+
+
+
+
+
+
+  
+
+        
+    
+    
+
+        
+    
+    
+
+
+
+    
+
+</body>
+
+</html>

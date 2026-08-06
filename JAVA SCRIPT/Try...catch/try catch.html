@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <pre>Errors are inevitable in any application. JavaScript provides robust tools to detect, handle, and respond to runtime errors, allowing your code to fail gracefully.
+    
+        there are mainly 3 types of error 
+        1.) Syntax error 
+        2.) Runtime error 
+        3.) Logical error 
+
+
+
+        there are  3 main things we can do 
+
+        1.)  try...catch
+
+
+         try{
+           WRITE CODE 
+         }catch{
+            console.log ("error yah jo bhi kardo")
+         }
+
+
+         2.) try...catch...finally 
+
+         try{
+            write code        
+         }catch{
+             write code         
+         }finally{
+                console.log("kucch bhi yaar ")    
+         }
+         ab na isme agar try wala part correct hogaa toh  catch wala part ignore hoga..
+         but finally wala part hoga hi hoga 
+         
+         same way agar try wala part  agar correct nahi hai  toh woh catch wala part  print hoga 
+         but finally wala bhi hoga  so basically FINALLY wala part hoga hi hoga along with any of the TRY OR CATCH 
+
+         3.)
+         throw(error)
+
+         now ab yeh bht sahi cheez hai 
+         Throwing Custom Errors
+         You can manually throw errors using the throw statement.
+
+
+
+
+
+         SUMMARY 
+         Use try...catch to prevent your app from crashing.
+         Add finally for cleanup logic.
+         Use throw to raise custom errors.
+         Proper error handling makes applications more stable and user-friendly.
+
+
+    </pre>
+
+    <script src="java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+    <script src="java.js"></script>
+</head>
+<body>
+
+    <h1> LOOPS</h1>
+
+    <pre>
+        1.FOR LOOP
+
+        for(i={first part}; i<{any number which we want to print}; i++){
+            console.log(i)
+        }
+    </pre>
+
+    <h1> let's see how for loop works</h1>
+    <pre> first value of i is checked like suppose we take i=0  and condition like
+        let i=0
+        for(i=2; i<6;i++){
+            console.log(i)
+        }
+
+        so like we have let the i =0 in first part and in codition we wrote ki  i="2" and that ki i<6 which is very much true so  yeh wala part jo hoga woh print ho jayega console.log(i) se and uske baad uss i ka  i++ hoga 
+        and woh wala part i ke initial value me chale jayega jo humne condition me likkha tha and loop continued rehta hai  ISKA BHT ACCHA EXAMPLE HAM LOG "WHILE LOOP" ME DEKKHEGE 
+
+    </pre>
+
+    <h1>2. WHILE LOOPS</h1>
+    
+    <pre>
+        let i=0;
+
+        while(i<6){
+            console.log(i);
+            i++
+        }
+
+        iska yeh matlb hai ki i ki value ham logon ne set kari hai  jo ki hai i="0" toh ab computer isko process karega
+        like i ki value 6 se kam hai jo ki true hai toh woh uss value ko print kar dega  and  uske baad  i ko preceed kardega by i++
+        and woh value i ki jagah aajayega automatically tumhe manually nahi karna padega  yeh khaasiyat hai language ki 
+        
+    </pre>
+    <h1>DO... WHILE loop</h1>
+    <pre> Basically yeh do and while loop ka mixture hai
+        
+    let i=10
+    do{
+        console.log(i)
+        i++
+    } while(i<5);
+
+
+    isme basically hota kya hai ki value ek jo hai woh print hogi hi hogi without even checking ki woh condition ko meet kar rahi hai yah nahi 
+    uske baad condition check hogi 
+
+    like maan lo  tumne i  ki value 10  li hai toh woh 10 print karega uske baad condition dekkhega while ke baad 
+    and  woh satisfy hoga toh woh print kar dega  lekin and uske baad pressedence se aage baddh jaayega but agar nahi hoga toh wahi stop ho jayega 
+</pre>
+<h1>FOR.. IN loop</h1>
+<pre>
+    let object={
+        name: Satyam,
+        course: B.tech,
+        semester:4,
+        duration:2029,
+    }
+
+    for(key in object){
+        console.log(key,  object[key])
+    }
+</pre>
+
+    
+</body>
+</html>

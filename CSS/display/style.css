@@ -1,0 +1,20 @@
+div{
+    background-color:red;
+    display:block;
+    height: 250px;
+    width:250px;
+    
+}
+
+span{
+    background-color: blue;
+    display:inline-block;
+    height:40px;
+    width:40px;
+}
+
+
+#p1{
+    
+    background-color: green;
+}

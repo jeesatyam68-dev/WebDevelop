@@ -1,0 +1,26 @@
+#display{
+    text-align:center;
+    display:block;
+    padding:5em;
+    font-size: 2em
+}
+
+#buttons{
+    text-align:center;
+    padding:1em;
+    }
+
+.change{
+    font-size:1em;
+    background-color:rgb(7, 88, 181);
+    transition:background-color 2s ease;
+    transition:font-size 2s ease;
+    color:white;
+    border-radius:1em;
+    border:solid 1.5em linear-gradient(to right, blue, red) ;
+}
+
+.change:hover{
+    background-image:linear-gradient(to left, rgb(8, 26, 64), rgb(61, 5, 61));
+    font-size:1.5em
+}

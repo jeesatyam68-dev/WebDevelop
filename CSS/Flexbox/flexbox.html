@@ -1,0 +1,68 @@
+<!--Here we wil learn about flex box
+ flexbox:- It is a property used in CSS if you need to align your boxes or anything horizontally
+   display: flex is the property used in this css profile.. let's see an example-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> HERE WE WILL SEE SOME PROPERTIES OF FLEX BOX</h1>
+    <hr>
+    <hr>
+    <div class="coantainer">
+        <div class="box" id="box1">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+!--Imp Terms -->
+   Main Concepts
+Term            	Description
+Main Axis---->:- The primary direction (row by default)
+Cross Axis----> Perpendicular to main axis
+Flex Container----> The parent element with display: flex
+Flex Items---- The children inside the container-->
+
+
+<!--
+  .container {
+  justify-content: flex-start;   /* default */
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+
+  justifying content image dekkho
+}  -->
+
+
+<!--
+.container {
+  align-items: stretch;     /* default */
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: baseline;
+}  align-item dekkho -->
+
+
+<!--Summary
+display: flex turns a container into a Flexbox layout.
+Use justify-content, align-items, and flex-direction to control layout flow.
+flex shorthand (grow shrink basis) gives you fine-grained sizing control.
+Use gap instead of margins for consistent spacing.-->

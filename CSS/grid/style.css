@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+    border:2px solid black;
+}
+.container{
+    height:100vh;
+    width:100%;
+    display:grid;
+    border:3px solid;
+    grid-template-columns: repeat(5, 4fr);
+    grid-template-rows: repeat(5, 4fr);
+    row-gap:2px;
+    /* row-gap sirf rows me gap dega
+       column-gap sirf column me gap dega */
+
+    
+
+}
+.box{
+    border: 2px solid black;
+    background-color:beige;
+    
+}
+#boxes{
+    border:2px solid black;
+           
+
+}

@@ -1,0 +1,16 @@
+
+
+
+
+h1{
+    text-shadow: 3px 3px 3px black, -3px -3px 3px green ; color:aqua
+
+}
+
+#rectangle1{
+
+    width: 250px;
+    height: 240px;
+    background-color: whitesmoke;
+    box-shadow:  3px 3px 50px rgb(0 0 0) ; color:black
+}

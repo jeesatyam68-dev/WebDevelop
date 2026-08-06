@@ -1,0 +1,17 @@
+git>> it's a version control bhai 
+
+>> It is distributed(in cloud)
+>> collaboration is easily available like koi bhi tumhara  code fix yah badal sakta hai if wrong 
+>>tracking changes.. jaise maan lo tumne koi  change kiya hai  and tumhe woh badalna hai toh kaise karoge?? issliye GIT usko easy bana deta hai 
+>> recovery.. maan lo kisi gaddhe ne tumhara likkah hua code purra udda diya toh obv app bhi udd jaayega.. 
+   ussko easy banane ke liye GIT bana hai kyunki usme code copied verseion me saved ho jaata hai \
+
+
+   >>Basic git commands now 
+
+   >> git status(this checks ki konsi konsi files nahi hai added);
+   >> git add .(agar saari  files ek satah daalni hai );
+   >>git commit -m "yaha kucch bhi msg type kar lo "(yeh mainly git commit ke liye hota hai );
+   >>git push(yeh push kar deta hai uske baad ek part milta hai terminal me ussko copy karke run kardo fir poora push ho jaayega);
+   
+   

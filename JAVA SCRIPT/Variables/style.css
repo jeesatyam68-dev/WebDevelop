@@ -1,0 +1,7 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    background-image:linear-gradient(to right, rgb(62, 129, 193), rgb(183, 172, 110));
+    height:100%;
+    width:98vw;
+}

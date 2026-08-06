@@ -1,0 +1,53 @@
+@font-face{
+   src:url(fonts/Nosifer-Regular.ttf);
+   font-family:Nosifer-Regular;
+
+}
+
+@font-face{
+    src:url(fonts/Bevan-Italic.ttf);
+    font-family: NOIR;
+}
+@font-face{
+    src:url(fonts/Bevan-Regular.ttf);
+    font-family:STARLIGHT;
+}
+@font-face{
+    src:url(fonts/Monoton-Regular.ttf);
+    font-family:BUTCHER;
+}
+
+
+body{
+    background-color:rgb(0,0,0);
+}
+
+h1{
+    border-style:solid;
+    border-width:10px;
+    border-color:orangered;
+
+    font-family:"Nosifer-Regular";
+    color:orangered;
+}
+#p1{
+    border-style:groove;
+    border-width:10px;
+    border-color:orange;
+    border-radius:20px;
+
+    color:orange;
+    font-family:NOIR;
+    
+}
+
+#p2{
+    color:whitesmoke;
+    font-family:STARLIGHT;
+}
+
+#p3{
+    color:green;
+    font-family:BUTCHER;
+}
+

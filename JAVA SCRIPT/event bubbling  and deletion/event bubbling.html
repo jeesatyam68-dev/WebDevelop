@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color:red;
+            padding:2em;
+            margin:2em;
+        }
+        .box{
+            margin:2em;
+            padding:2em;
+            background-color:white
+        }
+    </style>
+</head>
+<body>
+
+   <div id="parent">
+   <button id="child">CLICK ME</button>
+   </div>
+
+   <div id="BOX"   class="container">
+    <div id ="box1"    class="box">BOX 1</div>
+    <div id ="box2"    class="box">BOX 2</div>
+    <div id ="box3"    class="box">BOX 3</div>
+    <div id ="box4"    class="box">BOX 4</div>
+   </div>
+
+
+
+
+
+
+    <script src="java.js"></script>
+    <pre>
+      question.)  what is event bubbling?
+      answer.)    When an event occurs on a DOM element, it bubbles up through its ancestors. This means the event is first captured and handled by the target element, and then propagated upward to its parent, grandparent, and so on.
+    
+    
+      Stopping Event Bubbling
+      To stop the event from bubbling up the DOM tree, use:
+      event.stopPropagation();
+
+
+      What is Event Delegation?
+      Event delegation is a technique where a single event listener is added to a common parent instead of individual child elements. This works because of event bubbling.
+      Why Use Event Delegation?
+      Improved performance with many child elements
+      Simplified code
+      Useful for dynamic elements added after page load
+      
+      Summary
+      Event bubbling: Events move up the DOM tree from child to parent.
+      Use event.stopPropagation() to prevent bubbling.
+      Event delegation: Handle events at a parent level for better performance and maintainability
+    
+    
+    
+    
+    
+    
+    </pre>
+
+
+
+
+
+
+</body>
+</html>

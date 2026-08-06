@@ -1,0 +1,30 @@
+@font-face{
+    src:url(font/Monoton-Regular.ttf);
+    font-family: Monton;
+}
+
+
+
+
+
+body{
+    background-color:rgb(0, 0, 0);
+}
+
+h1{
+    color:aqua;
+
+    font-family: Monoton;
+}
+
+.even{
+    color:rgb(76, 54, 28);
+
+    font-family:"Monton";
+
+    font-size: 20px;
+
+    font-weight:bold;
+
+    font-style:italic;
+}

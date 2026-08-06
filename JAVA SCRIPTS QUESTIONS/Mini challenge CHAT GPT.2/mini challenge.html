@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 2</title>
+    <script src="java.js"></script>
+</head>
+<body>
+    <h1> CHALLENGE BY CHAT GPT</h1>
+    <pre>
+        Quest 1.) Ek student ke marks check karo.
+                 rules:- Agar marks >= 40 hain → Pass
+                         Pass hone ke baad:
+                         marks >= 75 → Distinction
+                         marks >= 60 → First Division
+                         warna → Second Division
+                         Agar marks < 40 → Fail
+
+                         marks = 82
+                         Pass
+                         Distinction
+
+
+       ANSWER:-      let marks= 82
+                     if(marks>=40){
+                         if(marks>=75){
+                             console.log("DISTINCTION")
+                            }
+                            else if(marks>=60 && marks<75){
+                                console.log("First Division")
+                            }
+                            else{
+                                console.log("second division")
+                            }
+                        }
+                        else{
+                            console.log("FAIL")
+                        }
+
+
+
+        quest 2.)  Ek age aur nationality lo.
+                   Rules:
+                   Age >= 18 hona chahiye
+                   Agar age eligible hai toh nationality check karo
+                
+                   output:Eligible Indian Voter; Not an Indian Citizen; Too Young To Vote
+
+     
+
+        Answer:-  let age= 18;
+                  if(age>=18 ){
+                      if(nationality==="Indian"){
+                          console.log("Eligible Indian Voter")
+                        }
+                        else {
+                            console.log("Not an Indian Citizen")
+                            
+                        }
+                        }
+                    else{
+                        console.log("Too Young To Vote")
+                    }
+
+
+
+        quest 4.) let balance = 10000;
+                  let withdraw = 3000;
+
+                  Agar withdraw amount balance se kam ya equal hai:
+                  Transaction Successful
+                  Remaining Balance: xxxx
+                  warna: Insufficient Balance
+
+
+                  
+        Answer:- let balance = 10000;
+                 let withdraw = 3000;
+                 if(withdraw<10000){
+                     console.log("Transaction successful")
+                     console.log("Remaining Balance:",balance-withdraw)
+                    }
+                    else{
+                        console.log("Insufficient Balance")
+                    }
+
+
+
+        Quest.5)  Ek aka age lo.
+                  0-12      Child
+                  13-19     Teenager
+                  20-59     Adult
+                  60+       Senior Citizen
+
+
+        Answer:-  let Age=89;
+                  if(Age>=0 && Age<=12){
+                      console.log("Child")
+                    }
+                    else if(Age>=13 && Age<=19){
+                        console.log("TeenAger")
+                    }
+                    else if(Age>=20 && Age<=59){
+                        console.log("Adult")
+                    }
+                    else{
+                        console.log("Senior Citizen")
+                    }
+
+
+
+
+
+
+        quest.6)      let marks = 88;
+                rules:- 
+                90+  => A
+                75+  => B
+                60+  => C
+                40+  => D
+                40  => F
+
+                output:- Grade B
+
+
+
+
+        Answer:- let Marks=88;
+        if(Marks>=90){
+            console.log("grade A")
+        }
+        else if(Marks>=75 && Marks<90){
+            console.log("Grade B")
+        }
+        else if(Marks>=60 && Marks< 75){
+            console.log("grade c")
+        }
+        else if(Marks>=40 && Marks<60){
+            console.log("garde D")
+        }
+        else{
+            console.log("garde F")
+        }
+
+
+
+
+
+        Quest 7.) teen numbers lo :
+             
+        a = 15
+        b = 20
+        c = 10
+
+        sabse bada number print karo :
+
+        output hona chahiye 20 is greatest 
+
+
+
+        answer:-   
+        a = 15;
+        b = 20;
+        c = 10;
+        if(a>b && a>c){
+            console.log(a,"is the greatest number")
+        }
+        else if(b>a&& b>c){
+            console.log(b, "is the greatest number")
+        }
+        else{
+            console.log(c, "is the greatest number")
+        }
+
+
+
+        question 8.)  let age = 22;
+                      let hasTicket = true;
+
+
+                      Rules:
+                      Age >= 18 hona chahiye
+                      Ticket hona chahiye
+
+                      output:-entry allowed; entery denied 
+
+
+
+                      Answer:-   let age=22;
+                      let hasTicket= true;
+                      if(age>=18){
+                          if(hasTicket===true){
+                              console.log("entery allowed")
+                            }
+                            else{
+                                console.log("entery denied")
+                            }
+                        }
+                        else{
+                            console.log("entry denied")
+                        }
+
+
+
+
+
+
+
+        question 9.)  let account = {
+            name: "Satyam",
+            balance: 25000,
+            isActive: true
+        }
+
+        Account active hona chahiye
+        Balance 5000 se zyada hona chahiye
+
+
+        agar dono true hai :-Transaction Allowed
+        agar actiev nahi hai toh :- Account Blocked
+        agar balance kam hai toh :- Low Balance
+
+
+
+
+
+
+
+
+        Answer:-  let account={
+            name:"Satyam",
+            balance: 25000,
+            isActive: true,
+        }
+        if(account["balance"]>5000) {
+            if(account["isActive"]===true){
+                console.log("Transaction allowed")
+            }
+            else{
+                console.log("Account blocked")
+            }
+        }
+        else{
+            console.log("Low balance")
+        }
+
+
+
+
+
+        
+
+
+
+                    
+        
+
+    
+
+
+    
+         </pre>
+    
+    
+</body>
+</html>

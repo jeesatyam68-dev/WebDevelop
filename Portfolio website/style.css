@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(Nosifer-Regular.ttf);
+    font-family: Shivam;
+}
+
+@font-face {
+    src: url(BitcountSingle_Roman-Black.ttf);
+    font-family: Satyam;
+}
+
+@font-face {
+    src: url(Monoton-Regular.ttf);
+    font-family: Sattu;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color:rgba(43, 3, 43, 0.968); */
+    background-image: linear-gradient(to right, rgb(40, 2, 40), rgb(6, 91, 165));
+    font-size: 25px;
+    padding-top: 18px;
+
+
+}
+
+.logo {
+    font-size: 45px;
+    color: grey;
+    font-weight: bolder;
+    font-family: Shivam;
+}
+
+ul {
+    display: flex;
+    gap: 36px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+li {
+    font-size: 28px;
+    list-style: none;
+    font-family: Shivam;
+    font-size: 20px;
+
+}
+
+.hero {
+    display: flex;
+    /* background-color: rgb(101, 153, 232); */
+    height: 86vh;
+    width: 99vw;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(47, 2, 47), rgb(18, 9, 75));
+
+}
+
+.hero-left {
+    transform: translateY(15%);
+
+
+
+}
+
+
+
+.hero-right {
+    transform: translateY(40%);
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: Sattu;
+
+}
+
+#hehe {
+    font-size: 50px;
+}
+
+#huhu {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    transition: font-size 2s ease;
+    font-family: Sattu;
+    color: whitesmoke;
+    background-color: rgb(67, 19, 67);
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgb(206, 164, 206);
+}
+
+#bt {
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-image: linear-gradient( to right, rgb(47, 2, 47), rgb(18, 9, 75), rgb(93, 93, 255),rgb(249, 223, 76));
+    font-size: 35px;
+}
+
+.hula {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(18, 9, 75), rgb(47, 2, 47));
+    height: 60vh;
+    width: 99vw;
+    /* position: absolute; */
+    padding-top: 300px;
+
+}
+
+.project {
+    transform: translate(-95px, -175px);
+
+}
+
+p {
+    font-size: 25px;
+    color: rgb(145, 131, 131)
+}
+
+h1 {
+    color: rgb(66, 66, 229)
+}
+
+.animation {
+    height: 400px;
+    width: 400px;
+    transition: height 2s ease, width 2s ease;
+
+
+
+}
+
+.animation:hover {
+    height: 500px;
+    width: 500px;
+}
+
+.next {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(47, 2, 47), rgb(18, 9, 75));
+    height: 80vh;
+    width: 99vw;
+    justify-content: space-around;
+
+
+}
+
+.ham {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient( rgb(47, 2, 47), rgb(18, 9, 75), rgb(93, 93, 255),rgb(249, 223, 76));
+    height: 60vh;
+    width: 99vw;
+    /* position: absolute; */
+    padding-top: 300px;
+    flex-direction: row-reverse;
+
+}
+
+.project {
+    transform: translate(-95px, -175px);
+
+}
+
+p {
+    font-size: 25px;
+    color: rgb(145, 131, 131)
+}
+
+h1 {
+    color: rgb(66, 66, 229)
+}
+
+.animation {
+    height: 400px;
+    width: 400px;
+    transition: height 2s ease, width 2s ease;
+
+
+
+}
+
+.animation:hover {
+    height: 500px;
+    width: 500px;
+}
+
+.next {
+    display: flex;
+    background-image: linear-gradient( rgb(47, 2, 47), rgb(18, 9, 75), rgb(93, 93, 255),rgb(249, 223, 76) );
+    height: 80vh;
+    width: 99vw;
+    justify-content: space-around;
+
+
+}
+
+pre {
+    font-size: 15px;
+    color: rgb(145, 131, 131);
+    font-weight:bold;
+    
+}
+
+.project {
+    height: 35px;
+
+
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(51, 6, 51);
+    color: rgb(93, 74, 74);
+}

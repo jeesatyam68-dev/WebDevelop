@@ -1,0 +1,52 @@
+<!--we will learn on how to make forms-->
+<!--in form we will include username,password,gamil,phone  number,bday,title(mr,ms,dr.),payment method,quantity,uploading file,comment-->
+<!DOCTYPE html>
+<html>
+    <title>
+        form submission
+    </title>
+    <body>
+        <h1>PLEASE ENTER ALL THE DATA WISELY</h1>
+        <form action="index.php" method="POST" enc="multipart">
+            <label for="username:-">username</label>
+            <input type="text" id="username "><br>
+
+            <label for="password:-">password</label>
+            <input type="password"  id="password" minlegth="6" maxlength="10" placeholder="ssrp@abcd required"> <br>
+
+            <label for="gmail:-">gmail</label>
+            <input type="email" id="gmail" placeholder="avengers@gmail.com " required><br>
+
+            <label for="phone:-">phone</label>
+            <input type="number" id="phone" pattern="[0-9]{5}-[0-9]{5}" required><br>
+
+            <label for="birthday:-">birthday</label>
+            <input type="date" id="birthday"><br>
+
+            <label for="title">title</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" value="Mr." name="title"><br>
+
+            <label for="Ms.">Ms.</label>
+            <input type="radio" value="Ms." name= "title"><br>
+
+            <label for="Dr.">Dr.</label>
+            <input type="radio" value="Dr." name="title"><br>
+
+            <label for="payment"> payment</label>
+            <select for="payment">
+                <option id="payment">UPI</option>
+                <option id="payment">debit card</option>
+                <option id="payment">credit card</option>
+                <option id="payment">cash </option>
+            </select> <br>
+            <input type="reset">
+            <input type="submit" >   
+                </form>
+
+                <footer>
+                    @copyright: all rights reserved
+                </footer>
+            </body>
+        </html>

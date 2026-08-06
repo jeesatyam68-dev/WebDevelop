@@ -1,0 +1,57 @@
+button{
+    font-size:78px;
+    border-radius:6px;
+}
+button:hover{
+    font-size:80px;
+    background-color:greenyellow;
+}
+
+button:active{
+    background-color:hsl(180, 54%, 58%);
+}
+
+
+a{
+    font-size:80px;
+}
+
+a:hover{
+    background-color:hsl(62, 65%, 32%);
+}
+a:active{
+    background-color:rgb(143, 143, 141);
+}
+
+a:visited{
+
+    background-color:hsl(27, 100%, 50%);
+}
+
+a:focus{
+    background-color:black;
+}
+ul{
+    font-size:35px;
+}
+
+li:hover{
+    background-color:brown;
+}
+li:not(:hover){
+    background-color:hsl(36, 100%, 90%);
+}
+
+ li:nth-child(3n){
+    background-color:yellow;
+ }
+
+ .box p{
+    background-color:aquamarine;
+    display:none;
+ }
+ .box:hover p{
+
+    display:block;
+
+ }

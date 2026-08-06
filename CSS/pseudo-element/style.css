@@ -1,0 +1,32 @@
+h1::first-letter{
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p::first-line{
+    background-color:hsl(40, 100%, 89%);
+}
+
+#fruit li:before{
+  content:"✅";
+}
+
+#li::after{
+    content:"✅";
+}
+
+#mango::after{
+    content:"🥭";
+}
+
+#watermelon::after{
+    content:"🍉";
+}
+
+#orange::after{
+    content:"🍊";
+}
+
+#fruit li::marker{
+    content:"👉";
+}
