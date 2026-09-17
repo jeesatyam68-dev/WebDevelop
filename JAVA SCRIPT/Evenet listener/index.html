@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0
+        }
+        .container{
+            display:flex;
+            justify-content:center ;
+            justify-content: space-between;
+            justify-content: space-around;
+            height:5rem;
+            width:100%;
+            align-items: center;
+            margin-top:15rem;
+            background-color:beige
+        }
+        h1{
+            text-align: center;
+        }
+        .box{
+            display:flex;
+            flex-wrap: wrap;
+            height:30px;
+            width:50px;
+            border-radius: 5px;
+            background-color: aqua;
+            padding:1rem;
+            justify-content: center;
+            align-items: center;
+        }
+        .input{
+            border-radius:5px;
+            margin-top:2rem;
+            text-align: center;
+        }
+         .input input{
+            height:3rem;
+            width:15rem;
+         } 
+
+    </style>
+</head>
+<body>
+    <div><h1>EVENT HANDLER</h1></div>
+    <div class="container">
+        <div class="box" id="box-1">Box 1</div>
+        <div class="box" id="box-2" >Box 2</div>
+        <div class="box" id="box-3" >Box 3</div>
+        <div class="box" id="box-4" >Box 4</div>
+    </div>
+    <div class="input">
+        <input type="text"  onkeydown="keydown()"="text">
+    </div>
+
+    <pre>
+        what's the differene between event handlers and event listener
+
+        EVENT HEADERS:-  yeh ham log HTML tag me likkhte hai; ham log prefex on+(keyup) "ON" rakkhte hai 
+        EVENT LISTENERS:- yeh ham log hatml tag me nahi likkhte isme jaroori nahi hai ki ham log "on" ko prefix rakkhe hi 
+    </pre>
+
+
+    <script src="java.js"></script>
+</body>
+</html>

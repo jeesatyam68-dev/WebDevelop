@@ -36,4 +36,22 @@ function power(a){
 }
 
 console.log(power(2));
-         
+
+
+// we'll know about anonymous fuction now
+
+let multiplication=function (i, j){
+    result= i*j;
+    return result
+}
+console.log(multiplication(5, 3)) //that's how an anonymous function works 
+
+
+// nested function :-
+function addSquare(x, y){
+    function squares(num){
+        return num*num
+    }
+    console.log(squares(2))
+}
+addSquare(2,1)
